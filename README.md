@@ -16,13 +16,13 @@ Project has also Java AWT "backend" for testing display and input.
   
   - Linux (preferrable Debian Wheezy)
   - Java 
-  - Wiring PI library (http://wiringpi.com/download-and-install/)
+  - Wiring PI library (http://wiringpi.com/download-and-install/) [required by PI4J]
   - PI4J Java GPIO library (included in project)
   
 1.2 Hardware
   
   - Raspberry PI (A/B/B+) model + accessories (WIFI, SD card)
-  - 8 (+2) jumper "Dupont" cables (female - male)
+  - 8 jumper "Dupont" cables (female - male)
   - Nokia 5110 LCD (check that it has PCD8544 controller and 8 pins)
   - 8 pin PCB connector (to connect 5110 LCD on breadboard or jumper cables)
   - Bread board
@@ -43,9 +43,13 @@ Project has also Java AWT "backend" for testing display and input.
 		 LCD7 - RST    P13 - GPIO2
 		 LCD8 - LED    P01 - 3.3V 
 		 
-  Please refer to http://pi4j.com/usage.html for port mapping
+  Please refer to http://pi4j.com/usage.html for port details how GPIOx maps to PINx
+  
+  - connect PCB connector to PCB
+  - connect PCB to bread board
+  - connect jumper cables from GPIO PINs to breadboard
 		 
-2.2 Compile and run
+2.2 Setup
 
   Setup appropiate Display and Joystick class into Snake class
   
@@ -53,6 +57,11 @@ Project has also Java AWT "backend" for testing display and input.
   - NokiaGPIODisplay class is for running game with actual hardware
   - AWTJoystick class is for controlling game in desktop/X11, use left/rigth to control the game.
   - ConsoleEnte class is for controlling game from console, use ENTER to control the game.
+
+2.3 Compile and run
+
+  - javac -cp ../lib/pi4j-core.jar:. org/noxo/Snake.java
+  - java -cp ../lib/pi4j-core.jar:. org.noxo.Snake
   
 3 Future plans
 ==============

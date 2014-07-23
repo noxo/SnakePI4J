@@ -21,7 +21,7 @@ Project has also Java AWT "backend" for display and input.
 1.2 Hardware
   
   - Raspberry PI (A/B/B+) model + accessories (WIFI, SD card)
-  - 8 (+2) jumper "Dupond" cables (female - male)
+  - 8 (+2) jumper "Dupont" cables (female - male)
   - Nokia 5110 LCD (check that it has PCD8544 controller and 8 pins)
   - 8 pin PCB connector (to connect 5110 LCD on breadboard or jumper cables)
   - Bread board
@@ -32,18 +32,18 @@ Project has also Java AWT "backend" for display and input.
 
 2.1 Connecting LCD
 
-     LCD pins      Raspberry Pi
-     ========      ============
-		 LCD1 - GND    P06  - GND
-		 LCD2 - VCC    P01 - 3.3V
-		 LCD3 - CLK    P16 - GPIO4
-		 LCD4 - Din    P12 - GPIO1
-		 LCD5 - D/C    P15 - GPIO3
-		 LCD6 - CS/CE  P11 - GPIO0
-		 LCD7 - RST    P13 - GPIO2
-		 LCD8 - LED    P01 - 3.3V 
+  LCD pins      Raspberry Pi
+  ========      ============
+  LCD1 - GND    P06  - GND
+  LCD2 - VCC    P01 - 3.3V
+  LCD3 - CLK    P16 - GPIO4
+  LCD4 - Din    P12 - GPIO1
+  LCD5 - D/C    P15 - GPIO3
+  LCD6 - CS/CE  P11 - GPIO0
+  LCD7 - RST    P13 - GPIO2
+  LCD8 - LED    P01 - 3.3V 
 		 
-		 Please refer to http://pi4j.com/usage.html for port mapping
+  Please refer to http://pi4j.com/usage.html for port mapping
 		 
 2.2 Compile and run
 

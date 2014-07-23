@@ -7,7 +7,7 @@ is connected over GPIO.
 
 Program is done in Java and PI4J 3rd party library is used to communicate over GPIO.
 
-Project has also Java AWT "backend" for display and input.
+Project has also Java AWT "backend" for testing display and input.
 
 1. Requirements
 ===============
@@ -17,6 +17,7 @@ Project has also Java AWT "backend" for display and input.
   - Linux (preferrable Debian Wheezy)
   - Java 
   - Wiring PI library (http://wiringpi.com/download-and-install/)
+  - PI4J Java GPIO library (included in project)
   
 1.2 Hardware
   
@@ -38,7 +39,7 @@ Project has also Java AWT "backend" for display and input.
 		 LCD3 - CLK    P16 - GPIO4
 		 LCD4 - Din    P12 - GPIO1
 		 LCD5 - D/C    P15 - GPIO3
-		 LCD6 - CS/CE     P11 - GPIO0
+		 LCD6 - CS/CE  P11 - GPIO0
 		 LCD7 - RST    P13 - GPIO2
 		 LCD8 - LED    P01 - 3.3V 
 		 

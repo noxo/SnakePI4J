@@ -32,16 +32,15 @@ Project has also Java AWT "backend" for display and input.
 
 2.1 Connecting LCD
 
-  LCD pins      Raspberry Pi
-  ========      ============
-  LCD1 - GND    P06  - GND
-  LCD2 - VCC    P01 - 3.3V
-  LCD3 - CLK    P16 - GPIO4
-  LCD4 - Din    P12 - GPIO1
-  LCD5 - D/C    P15 - GPIO3
-  LCD6 - CS/CE  P11 - GPIO0
-  LCD7 - RST    P13 - GPIO2
-  LCD8 - LED    P01 - 3.3V 
+		 LCD pins      Raspberry Pi
+		 LCD1 - GND    P06  - GND
+		 LCD2 - VCC    P01 - 3.3V
+		 LCD3 - CLK    P16 - GPIO4
+		 LCD4 - Din    P12 - GPIO1
+		 LCD5 - D/C    P15 - GPIO3
+		 LCD6 - CS/CE     P11 - GPIO0
+		 LCD7 - RST    P13 - GPIO2
+		 LCD8 - LED    P01 - 3.3V 
 		 
   Please refer to http://pi4j.com/usage.html for port mapping
 		 

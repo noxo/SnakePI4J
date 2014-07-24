@@ -32,8 +32,8 @@ Here's the video of finished project:
   - Bread board (*)
   - Soldering iron (if PCB connector is not already soldered to LCD)
   
-  * Alternatively you can connect LCD to GPIO with female to female jumper cables, and 
-    skip bread board.
+  (*) Alternatively you can connect LCD to GPIO with female to female jumper cables, and 
+      skip bread board.
 
 2. Setting up
 =============

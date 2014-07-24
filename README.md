@@ -9,6 +9,10 @@ Program is done in Java and PI4J 3rd party library is used to communicate over G
 
 Project has also Java AWT "backend" for testing display and input.
 
+Here's the video of finished project:
+
+   https://www.youtube.com/watch?v=eN_V8ItDM20
+
 1. Requirements
 ===============
 
@@ -22,12 +26,15 @@ Project has also Java AWT "backend" for testing display and input.
 1.2 Hardware
   
   - Raspberry PI (A/B/B+) model + accessories (WIFI, SD card)
-  - 8 jumper "Dupont" cables (female - male)
+  - 8 jumper "Dupont" cables (female - male) (*)
   - Nokia 5110 LCD (check that it has PCD8544 controller and 8 pins)
-  - 8 pin PCB connector (to connect 5110 LCD on breadboard or jumper cables)
-  - Bread board
+  - 8 pin PCB connector (to connect 5110 LCD on breadboard or jumper cables) 
+  - Bread board (*)
   - Soldering iron (if PCB connector is not already soldered to LCD)
   
+  * Alternatively you can connect LCD to GPIO with female to female jumper cables, and 
+    skip bread board.
+
 2. Setting up
 =============
 
@@ -45,7 +52,7 @@ Project has also Java AWT "backend" for testing display and input.
 		 
   Please refer to http://pi4j.com/usage.html for port details how GPIOx maps to PINx
   
-  - connect PCB connector to PCB
+  - solder PCB connector to LCD
   - connect PCB to bread board
   - connect jumper cables from GPIO PINs to breadboard
 		 
